@@ -1,7 +1,7 @@
 import functions
 import time
 
-now = time.stfrtime("%b %d, %Y %H:%M:%S")
+now = time.strftime("%b %d, %Y %H:%M:%S")
 print("It is", now)
 
 while True:
