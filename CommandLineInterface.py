@@ -1,10 +1,9 @@
-from mailbox import mboxMessage
-from os import write
+from functions import get_todos, write_todos
 
-import functions
+
 import time
 
-from functions import get_todos, write_todos
+
 
 now = time.strftime("%b %d, %Y %H:%M:%S")
 print("It is", now)
