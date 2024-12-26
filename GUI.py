@@ -33,7 +33,7 @@ complete_button = gui.Button("Complete")
 exit_button = gui.Button("Exit")
 
 
-window = gui.Window('To-Do App',
+window = gui.Window(f"{user}'s To-Do's ",
                     layout=[[clock],
                             [label, input_box, add_button],
                             [list_box, edit_button, complete_button],
