@@ -31,6 +31,7 @@ while True:
             todos.append(new_todo)
             functions.write_todos(todos)
             window['todos'].update(values=todos)
+            window['todo'].update(value='')
         case "Edit":
             try:
                 todo_to_edit = values['todos'][0]
